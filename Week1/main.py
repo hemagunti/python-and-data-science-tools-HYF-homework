@@ -44,8 +44,8 @@ print(my_tuple)
 
 #9. Remove duplicated from the list:
 sample_list = [10,20,30,20,10,50,60,40,80,50,40]
-sample_list = list(dict.fromkeys(sample_list))
-print(sample_list)
+original_list = list(dict.fromkeys(sample_list))
+print(original_list)
 
 #10.remove the characters which have odd index values of a given string
 original_string = input("Please Enter your Own String : ")
