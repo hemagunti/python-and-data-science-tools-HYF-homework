@@ -1,7 +1,7 @@
 #1.print my name and age
 name = "Hema"
 age = 37
-print(f"Name:{}\n Age:{}".format(name, age))
+print(f"Name:{name}\n Age:{age}")
 
 #2. Create a list of your 5 favorite movies and store it in the variable
 fav_list = ["Titanic", "Home alone", "Silence", "Dinosaur", "Frozen"]
@@ -19,7 +19,7 @@ print(sample_dictionary)
 #5. Python program to calculate body mass index.
 height = float(input("Enter your body weight in kg"))
 weight = float(input("Enter your body height in feet"))
-print("Your body mass index is: ", round(weight / (height * height)))
+print("Your body mass index is: ", round(weight / (height ** 2)))
 
 #6. Guess number
 import random
@@ -44,14 +44,14 @@ print(my_tuple)
 
 #9. Remove duplicated from the list:
 sample_list = [10,20,30,20,10,50,60,40,80,50,40]
-original_list = list(dict.fromkeys(sample_list))
+original_list = list(set(sample_list))
 print(original_list)
 
 #10.remove the characters which have odd index values of a given string
 original_string = input("Please Enter your Own String : ")
 final_string = ''
-for i in range(len(original_string)):
+for i,character in enumerate(original_string):
      if (i % 2 == 0):
-          final_string = final_string + original_string[i]
+          final_string += original_string[i]
 print("Original String :  ", original_string)
 print("Final String :     ", final_string)
