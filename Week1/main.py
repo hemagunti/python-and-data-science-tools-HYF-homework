@@ -1,7 +1,7 @@
 #1.print my name and age
 name = "Hema"
 age = 37
-print("Name:{}\n Age:{}".format(name, age))
+print(f"Name:{}\n Age:{}".format(name, age))
 
 #2. Create a list of your 5 favorite movies and store it in the variable
 fav_list = ["Titanic", "Home alone", "Silence", "Dinosaur", "Frozen"]
