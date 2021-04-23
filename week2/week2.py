@@ -31,8 +31,8 @@ class JetInventory():
         print(f'{self.name} {self.country}')
 
 
-jetInventory1 = JetInventory("AirIndia", "India")
-jetInventory1.jet_details()
+jet_inventory1 = JetInventory("AirIndia", "India")
+jet_inventory1.jet_details()
 
 # 4. Create a notebook
 # import pandas as pd
@@ -59,7 +59,7 @@ is_key_present(9)
 def show_numbers(limit):
     num = int(input("Enter a number: "))
     mod = num % 2
-    if mod > 0:
+    if mod != 0:
         print("{0} is odd".format(num))
     else:
         print("{0} is even".format(num))
