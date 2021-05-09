@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45c6edc1-98e0-422f-b5df-974ce476bcbe" name="Default Changelist" comment="" />
+    <list default="true" id="45c6edc1-98e0-422f-b5df-974ce476bcbe" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/week4/Untitled.ipynb" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
